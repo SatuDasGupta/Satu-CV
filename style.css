@@ -1,0 +1,648 @@
+
+/* body section styling start */
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body{
+    background-color: aqua;
+  }
+
+  .container{
+    width:85%;
+    background-color: rgb(241, 250, 237);
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+/* body section styling end */
+
+/* header section styling  start */
+
+  .header-contact{
+    background-color: lightblue;
+  }
+
+  .bio{
+    float: left;
+    padding: 30px;
+  }
+
+  #web{
+    color: darkblue;
+  }
+
+  #web:hover{
+    color: rgb(198, 9, 9);
+    transition: ease 1s;
+    transform: scale(1.2);
+  }
+
+  .bio p{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .bio p a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .bio p a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    }
+
+/* header section styling  end */
+
+/* image styling start  */
+
+  .profile-picture{
+    width: 250px ;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: right;
+    margin-right: 40px;
+  }
+
+/* image styling end  */
+
+/* horizontal line styleing start  */
+
+  .div-clear{
+    clear: both;
+    padding: 10px;
+  }
+
+  hr{
+    border: 3px solid navy;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+  }
+
+/* horizontal line styleing end  */
+
+/* navbar styling start  */
+
+  .navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navigation-bar li {
+    list-style-type: none;
+    float: left;
+    background-color: rgb(209, 247, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navigation-bar li a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin:5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .navigation-bar li a:hover{
+    background-color: white;
+    color: darkblue;
+    transition: ease 1s;
+    transform: scale(1.2);
+  }
+
+/* navbar styling end  */
+
+/* about me section styling start  */
+
+  #me{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .About-Me{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+    background-color: rgb(217, 250, 239);
+  }
+
+  #me:hover{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .About-Me:hover{
+    background-color: white;
+    color: darkgreen;
+  }
+
+/* about me section styling end  */
+
+
+/* education section styling start  */
+
+  #eduaction{
+    border: 1px solid grey;
+    border-radius: 15px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+    background-color: rgb(243, 250, 217);
+  }
+
+  #edu{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .edu-tem-left{
+    float: left;
+    width: 40%;
+    padding-left: 10px;
+    /* border: 1px solid grey; */
+  }
+
+  .edu-tem-right{
+    float: right;
+    width: 40%;
+    padding-left: 10px;
+    /* border: 1px solid grey; */
+  }
+
+  #edu:hover{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+  }
+
+  #eduaction:hover{
+    background-color:white;
+    color: navy;
+  }
+
+  .edu-tem-left:hover{
+    background-color: darkturquoise;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .edu-tem-right:hover{
+    background-color: darkturquoise;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+/* education section styling end  */
+
+/* skill section styling start  */
+
+  .skills{
+    background-color: rgb(207, 251, 210);
+  }
+
+  .skills:hover{
+    background-color: aliceblue;
+    color: darkblue;
+  }
+
+  #skills{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  #skills:hover{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+  }
+  div ul li{
+    list-style-type: none;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(250, 240, 228);
+  }
+
+  .Web-Design:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .Software-Development:hover{
+    background-color: darkslateblue;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .DIgital-Marketing:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .Lead-Generation:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .Content-Writting:hover{
+    background-color: yellow;
+    color: navy;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .Data-Entry:hover{
+    background-color: orange;
+    color: navy;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .Quality-Control:hover{
+    background-color: navy;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+  .skills{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+  }
+
+/* skill section styling end  *
+
+/* language section styling start */
+
+  .language{
+    background-color: lightgreen;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+  }
+
+  .language:hover{
+    background-color: azure;
+
+  }
+
+  #lang{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+
+  #lang:hover{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+  }
+
+  section ul li{
+    font-size: 20px;
+  }
+
+  .english:hover{
+    background-color: darkcyan;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .hindi:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .bengali:hover{
+    background-color: darkmagenta;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .urdu:hover{
+    background-color: darkolivegreen;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .spanish:hover{
+    background-color: darkorchid;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+  .german:hover{
+    background-color: darkgreen;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s ;
+    font-size: 30px;
+  }
+
+/* language section styling end */
+
+/* profile section styleing start  */
+
+  .profile{
+    background-color: lightblue;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+    height: 300px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+  }
+
+  .profile:hover{
+    background-color: ghostwhite;
+  }
+
+  #profile{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+
+  #profile:hover{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .right{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 100px;
+  }
+
+  p span{
+    text-align: right;
+    padding-left: 70px;
+  }
+
+/* profile section styleing end  */
+
+/* Job experience section styling start  */
+
+  .job-ex{
+    border: 1 px solid grey;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+    background-color: aquamarine;
+  }
+
+  .job-ex:hover{
+    background-color: honeydew;
+  }
+
+  #job-ex{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+  }
+
+  #job-ex:hover{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .job-ex div{
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .maf{
+    background-color: rgb(68, 16, 16);
+    color: white;
+  }
+
+  .KDS-QI{
+    background-color: rgb(40, 68, 16);
+    color: white;
+  }
+
+  .KDS-QA{
+    background-color: rgb(16, 20, 68);
+    color: white;
+  }
+
+  .Travel{
+    background-color: rgb(96, 12, 231);
+    color: white;
+  }
+
+  .QA{
+    background-color: rgb(104, 114, 29);
+    color: white;
+  }
+  .freelance{
+    background-color: rgb(114, 29, 98);
+    color: white
+  }
+
+  .maf:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 2s;
+    background-color: rgb(14, 249, 41);
+    color: navy;
+  }
+
+  .KDS-QI:hover{
+    transform: scale(1.2);
+    transition: ease 2s;
+    background-color: rgb(14, 249, 41);
+    color: navy;
+  }
+
+  .KDS-QA:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 2s;
+    background-color: rgb(14, 249, 41);
+    color: navy;
+  }
+
+  .Travel:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 2s;
+    background-color: rgb(14, 249, 41);
+    color: navy;
+  }
+
+  .QA:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 2s;
+    background-color: rgb(14, 249, 41);
+    color: navy;
+  }
+
+  .freelance:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 2s;
+    background-color: rgb(14, 249, 41);
+    color: navy;
+  }
+/* Job experience section styling end  */
+
+/* footer section styling start  */
+
+  .contact{
+    border: 1 px solid grey;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+    background-color: rgb(164, 191, 255);
+    padding: 10px;
+    height: 250px;
+  }
+
+  .contact:hover{
+    background-color: azure;
+    color: rgb(80, 66, 240);
+  }
+
+  #contact{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  #contact:hover{
+    background-color: rgb(145, 230, 145);
+    border-radius: 10px;
+  }
+
+  .mailing-address{
+    float: left;
+    width: 40%;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .mailing-address:hover {
+    background-color: chartreuse;
+    border-radius: 5px;
+  }
+
+  .parmanent-address{
+    float: right;
+    width: 40%;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .parmanent-address:hover {
+    background-color: chartreuse;
+    border-radius: 5px;
+  }
+
+  .com{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+    background-color: rgb(233, 234, 138);
+    padding: 15px;
+  }   
+    
+  .com:hover{
+    background-color: aquamarine;
+  }
+
+  .commit{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 10px;
+  }
+
+  .commit:hover{
+    background-color: coral;
+    border-radius: 15px;
+  }
+
+  .para{
+    font-size: 20px;
+  }
+
+  .finish{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px grey,-5px -5px 15px grey;
+    background-color: rgb(245, 197, 249);
+    padding: 15px;
+    text-align: center;
+  }
+  .par{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .sign{
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 40px;
+  }
+
+/* footer section styling end  */
